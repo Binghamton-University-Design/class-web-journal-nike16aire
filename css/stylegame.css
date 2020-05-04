@@ -33,8 +33,8 @@ body {
 	background-size: cover;
 	/*try background-size: contain 960 x 600*/
 	background-repeat: no-repeat;
-	width: 850px;
-	height: 690px;
+	width: 800px;
+	height: 640px;
 	padding: 2em;
 	margin: 0 2em;
 }
