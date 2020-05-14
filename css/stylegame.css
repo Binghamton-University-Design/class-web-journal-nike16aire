@@ -2,11 +2,11 @@ body {
 	background-color:#000;
 	text-align: left;
 	margin: 0;
-	color: green;
-	font-size: 16px;
+	color: white;
+	font-size: 18px;
 	font-weight: 400;
-	line-height: 1.6;
-	font-family: Helvetic, sans-serif;
+	line-height: 1.5;
+	font-family: Verdana, sans-serif;
 	height: 100%;
 	position: relative;
 
@@ -33,29 +33,57 @@ body {
 	background-size: cover;
 	/*try background-size: contain 960 x 600*/
 	background-repeat: no-repeat;
-	width: 700px;
-	height: 540px;
+	width: 680px;
+	height: 511px;
 	padding: 2em;
 	margin: 0 2em;
 }
+ 
 
-.left-button {
+/*#rdcorners {
+  border-radius: 25px;
+  background: grey;
+  position: absolute;
+  padding: 20px;
+  width: 550px;
+  height: 130px;
+  left: 80px;
+  top: 380px;
+}*/
+
+/*.left-button {
 	z-index: 2;
 	position: absolute;
 	padding: 20px;
 	background-color: pink;
 	left: 30px;
 	top: 30px;
-}
+}*/
 
 .right-button {
+	font-family: Verdana;
+	z-index: 3;
+	position: absolute;
+	padding: 6px;
+	width: 200 px;
+	height: 200 px;
+	background-color: dimgrey;
+	right: 80px;
+	top: 495px;
+	border-radius: 12px;
+	border: 2px solid black
+
+}
+
+/*.right-button {
 	z-index: 3;
 	position: absolute;
 	padding: 15px;
 	background-color: pink;
 	right: 60px;
 	top: 500px;
-}
+} ---> ORIGINAL VERSION.*/
+
 
 .first-ofthreechoice {
 	z-index: 2;
@@ -100,6 +128,87 @@ body {
 	background-color: #ffffff00;
 	left: 60px;
 	top: 300px;
+}
+
+.moreoptionschoice {
+	z-index: 2;
+	position: absolute;
+	padding: 20px;
+	background-color: #ffffff00;
+	left: 550px;
+	top: 430px;
+}
+
+.returntochoice {
+	z-index: 2;
+	position: absolute;
+	padding: 20px;
+	background-color: #ffffff00;
+	left: 550px;
+	top: 455px;
+}
+
+.replay {
+	z-index: 2;
+	position: absolute;
+	padding: 20px;
+	background-color: #ffffff00;
+	left: 450px;
+	top: 470px;
+}
+
+.credits {
+	z-index: 2;
+	position: absolute;
+	padding: 20px;
+	background-color: #ffffff00;
+	left: 580px;
+	top: 470px;
+}
+
+.ref1 {
+	z-index: 2;
+	position: absolute;
+	padding: 40px;
+	background-color: #ffffff00;
+	left: 40px;
+	top: 210px;
+}
+
+.ref2 {
+	z-index: 2;
+	position: absolute;
+	padding: 40px;
+	background-color: #ffffff00;
+	left: 40px;
+	top: 270px;
+}
+
+.ref3 {
+	z-index: 2;
+	position: absolute;
+	padding: 40px;
+	background-color: #ffffff00;
+	left: 40px;
+	top: 330px;
+}
+
+.ref4 {
+	z-index: 2;
+	position: absolute;
+	padding: 40px;
+	background-color: #ffffff00;
+	left: 40px;
+	top: 390px;
+}
+
+.ref5 {
+	z-index: 2;
+	position: absolute;
+	padding: 40px;
+	background-color: #ffffff00;
+	left: 40px;
+	top: 450px;
 }
 
 .video-responsive{
